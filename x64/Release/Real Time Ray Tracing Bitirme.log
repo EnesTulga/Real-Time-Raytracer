@@ -1,0 +1,63 @@
+﻿  Compiling CUDA source file Triangle.cu...
+  
+  C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_61,code=\"sm_61,compute_61\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu -rdc=true -I"C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\packages\libpng-msvc-x64.1.6.33.8807\build\native\../..//build/native/include" -I"C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\packages\freeglut.3.0.0.v140.1.0.2\build\\..\sources\\" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DNDEBUG -DHAS_libpng -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc141.pdb /FS /Zi  /MD " -o x64\Release\Triangle.cu.obj "C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\Triangle.cu" 
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(27): warning : overloaded virtual function "Object::GetNormal" is only partially overridden in class "Sphere"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(27): warning : overloaded virtual function "Object::returnCollision" is only partially overridden in class "Sphere"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(38): warning : overloaded virtual function "Object::GetNormal" is only partially overridden in class "Triangle"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(38): warning : overloaded virtual function "Object::returnCollision" is only partially overridden in class "Triangle"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(48): warning : overloaded virtual function "Object::GetNormal" is only partially overridden in class "Model"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(48): warning : overloaded virtual function "Object::returnCollision" is only partially overridden in class "Model"
+  
+C:/Users/Yonkira/source/repos/Real Time Ray Tracing Bitirme/Triangle.cu(59): warning : returning pointer to local variable
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(27): warning : overloaded virtual function "Object::GetNormal" is only partially overridden in class "Sphere"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(27): warning : overloaded virtual function "Object::returnCollision" is only partially overridden in class "Sphere"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(38): warning : overloaded virtual function "Object::GetNormal" is only partially overridden in class "Triangle"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(38): warning : overloaded virtual function "Object::returnCollision" is only partially overridden in class "Triangle"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(48): warning : overloaded virtual function "Object::GetNormal" is only partially overridden in class "Model"
+  
+c:\users\yonkira\source\repos\real time ray tracing bitirme\Objects.h(48): warning : overloaded virtual function "Object::returnCollision" is only partially overridden in class "Model"
+  
+C:/Users/Yonkira/source/repos/Real Time Ray Tracing Bitirme/Triangle.cu(59): warning : returning pointer to local variable
+  
+  Triangle.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  
+  C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -dlink -o "x64\Release\Real Time Ray Tracing Bitirme.device-link.obj" -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -L"C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\packages\glew-vc141-static-x64.2.1.0\build\native\lib" -L"C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\packages\freeglut.3.0.0.v140.1.0.2\build\\..\runtimes\win-x64\native\Release\\" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64" "C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\packages\libpng-msvc-x64.1.6.33.8807\build\native\../..//build/native/lib_release/libpng16.lib" cudadevrt.lib cudart.lib "C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\packages\glew-vc141-static-x64.2.1.0\build\native\lib\Release\GLEW.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib freeglut.lib  -gencode=arch=compute_61,code=sm_61  --machine 64 x64\Release\BoundingBox.cu.obj x64\Release\main.cu.obj x64\Release\Material.cu.obj x64\Release\MeshTriangle.cu.obj x64\Release\Model.cu.obj x64\Release\Object.cu.obj x64\Release\RGBAUtilities.cu.obj x64\Release\Sphere.cu.obj x64\Release\Triangle.cu.obj 
+  libpng16.lib
+  cudadevrt.lib
+  cudart.lib
+  GLEW.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  freeglut.lib
+  BoundingBox.cu.obj
+  main.cu.obj
+  Material.cu.obj
+  MeshTriangle.cu.obj
+  Model.cu.obj
+  Object.cu.obj
+  RGBAUtilities.cu.obj
+  Sphere.cu.obj
+  Triangle.cu.obj
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  Real Time Ray Tracing Bitirme.vcxproj -> C:\Users\Yonkira\source\repos\Real Time Ray Tracing Bitirme\x64\Release\Real Time Ray Tracing Bitirme.exe
